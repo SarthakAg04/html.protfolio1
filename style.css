@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 0;
+}
+.hero {
+    background-color: #e6faf7;
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+.hero h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #3c4a5a;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.5rem;
+    color: #2e8b8b;
+}
+.hero-img {
+    margin-top: 5px;
+    width: 500px
+}
+.hello {
+    text-align: center;
+    padding: 60px 20px;
+}
+.profile-img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.hello h2 {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+.hello p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.skills {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+.skill-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+.skill-img {
+    width: 150px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.skill-row div {
+    max-width: 500px;
+    text-align: left;
+}
+.skills h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #3498db;
+}
+.contact {
+    background-color: #e0f7f4;
+    padding: 40px 20px;
+}
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    background-color: #16a085;
+}
+@media (max-width: 768px) {
+    .skill-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .skill-row div {
+        text-align: center;
+    }
+}
+.social-links {
+    margin-top: 40px;
+    background-color: #66c7c7;
+    border-radius: 5px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #004d4d;
+    text-decoration: underline;
+}
